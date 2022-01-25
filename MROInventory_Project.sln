@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MROInventory_Project", "MROInventory_Project\MROInventory_Project.csproj", "{088FBA10-AB61-4F23-8275-6579FB6D55D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{97266FBD-6411-4A1D-A754-F7DDE8FDBF6F} = {97266FBD-6411-4A1D-A754-F7DDE8FDBF6F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification_Service", "Notification_Service\Notification_Service.csproj", "{97266FBD-6411-4A1D-A754-F7DDE8FDBF6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{088FBA10-AB61-4F23-8275-6579FB6D55D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088FBA10-AB61-4F23-8275-6579FB6D55D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088FBA10-AB61-4F23-8275-6579FB6D55D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088FBA10-AB61-4F23-8275-6579FB6D55D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97266FBD-6411-4A1D-A754-F7DDE8FDBF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97266FBD-6411-4A1D-A754-F7DDE8FDBF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97266FBD-6411-4A1D-A754-F7DDE8FDBF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97266FBD-6411-4A1D-A754-F7DDE8FDBF6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B71A1DD-6E09-44C2-90CD-38C078B584E1}
+	EndGlobalSection
+EndGlobal
